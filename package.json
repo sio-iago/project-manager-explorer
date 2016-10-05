@@ -1,7 +1,7 @@
 {
   "build": {
-    "appId": "com.example.electron-boilerplate",
-    "app-category-type": "your.app.category.type",
+    "appId": "br.silva.io.project.tree.explorer",
+    "app-category-type": "data.visualization",
     "win": {
       "target": [
         "nsis"

@@ -37,12 +37,8 @@ app.on('ready', function () {
         width: 1000,
         height: 600
     });
-
+    
     mainWindow.loadURL('file://' + __dirname + '/app.html');
-
-    if (env.name === 'development') {
-        mainWindow.openDevTools();
-    }
 });
 
 app.on('window-all-closed', function () {
